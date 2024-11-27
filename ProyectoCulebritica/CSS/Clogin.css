@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital&display=swap");
 
-body {
-    margin: 0;
-    padding: 0;
-    background: url(/ProyectoCulebritica/img/forestBG.jpeg) no-repeat center top;
-    background-size: cover;
-    font-family: sans-serif;
-    height: 100vh;
-    font-family: 'Playfair Display', serif;
-}
 
 .login-box {
     width: 320px;
@@ -22,6 +13,7 @@ body {
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    border-radius: 20px;
 }
 
 .login-box .avatar {
